@@ -3,89 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        thead {
-            color: crimson;
-        }
-    </style>
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
-    <h1>Home Services</h1>
-    <h2>Hello</h2>
-    <h3>Hello</h3>
-    <h4>Hello</h4>
-    <h5>Hello</h5>
+    <form>
+        <label for="UserName">UserName:</label><input type="text" name="username" id="username"
+        placeholder="UserName">
 
-   <a href="https://www.google.com">Google</a>
-   <img src="./imges/blue.jpg"/>
+        <label for="email">email:</label><input type="email" name="email" id="email"
+        placeholder="email"><br>
 
-   <ul>
-    <li>item1</li>
-    <li>item2</li>
-    <li>item3</li>
-    <li>item4</li>
-    <li>item5</li>
-   </ul>
-    
+        <label for="password">password:</label><input type="password" name="password" id="password"
+          placeholder="">
 
+          <input type="submit" name="submit" value="login" id="btn-login"><br>
 
-   <ol>
-    <li>item1</li>
-    <li>item2</li>
-    <li>item3</li>
-    <li>item4</li>
-   </ol>
+          <label for="java">java</label><input type="checkbox" name="java" id="java" value="java">
+        <label for="C++">C++</label><input type="checkbox" name="C++" id="C++" value="C++"/>
+        <label for="Python">Python</label><input type="checkbox" name="C++" id="Pyton" value="C++"/><br><br>
+
+       <select>
+         <option >Please select your field</option>
+         <option value="cs">Computer Science</option>
+         <option value="se">Software Engineering</option>
+         <option value="iT">Information Technology</option>
+       </select>
 
 
-   <dl>
-    <dt>Computer Science</dt>
-    <dd>Lorem ipsum dolor sit amet<strong>Hello</strong> consectetur adipisicing elit. Accusantium vero repellendus <u>heloo</u>deserunt recusandae culpa illum corporis? Atque dicta <s> consectetur</s>adipisci harum <mark>Pakistan</mark> nesciunt rerum ut nostrum <q>suscipit</q>, quasi, magni fugiat praesentium.</dd>
-   </dl>
-
-  
-
-   <table border="1">
-     <thead>
-        <tr>
-            <th>S.No</th>
-            <th>Name</th>
-            <th>Subject</th>
-            <th>GPA</th>
-            <th colspan="2">address</th>
-        </tr>
-     </thead>
-
-     <tbody>
-        <tr>
-            <td>12334</td>
-            <td>johan</td>
-            <td>Python</td>
-            <td>3.4</td>
-            <td>Peshawar</td>
-            <td>Danishabad</td>
-        </tr>
-        <tr>
-            <td>12364</td>
-            <td>akif</td>
-            <td>C++</td>
-            <td>3.7</td>
-            <td>lakki marwat</td>
-            <td>Zahidabad</td>
-        </tr>
-
-        <tr>
-            <td>12365</td>
-            <td>ali</td>
-            <td>Javascript</td>
-            <td>3.9</td>
-            <td>karak</td>
-            <td>ahmadabad</td>
-        </tr>
-     </tbody>
-
-
-   </table>
-
+    </form>
 </body>
 </html>
